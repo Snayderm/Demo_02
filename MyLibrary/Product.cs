@@ -21,8 +21,7 @@ namespace MyLibrary
         public void SetDiscontinued() => 
             Discontinued = true;
         
-        public bool GetStatus() => 
-            Discontinued;
+      
 
     }
 }
