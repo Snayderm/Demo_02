@@ -18,11 +18,12 @@ namespace MyLibrary
         public bool Discontinued {  get; private set; }
 
 
-        public void SetDiscontinued() => 
-            Discontinued = true;
+
+	public void SetDiscontinued() =>
+ Discontinued = true;
 
 
 	public bool GetStatus() =>
-	   Discontinued;
+			Discontinued;
 }
 }
